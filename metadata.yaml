@@ -1,10 +1,10 @@
-name: xinxin-fanli
-display_name: 新新返利
+name: xiaoxin-fanli
+display_name: 小新返利
 desc: 自动解析微信消息中的淘宝、京东链接并生成带佣金的返利链接。
 help: 直接发送淘宝口令或京东链接即可，支持 openclaw-weixin 个人号通道。
 version: "1.0.0"
 author: xiaoxin
-repo: https://github.com/styy88/xinxin-fanli
+repo: https://github.com/styy88/xiaoxin-fanli
 support_platforms:
   - weixin_oc
   - aiocqhttp
