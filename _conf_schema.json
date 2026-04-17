@@ -3,9 +3,11 @@
   "taobao_sid": { "type": "string", "description": "折淘客 SID" },
   "taobao_pid": { "type": "string", "description": "淘宝 PID", "hint": "mm_xxx_xxx_xxx" },
   "taobao_relation_id": { "type": "string", "description": "渠道 ID (Relation ID)" },
-  "jd_appkey": { "type": "string", "description": "折京客 APPKEY" },
-  "jd_union_id": { "type": "string", "description": "京东联盟 ID" },
-  "jd_position_id": { "type": "string", "description": "推广位 ID" },
-  "jtt_appid": { "type": "string", "description": "京推推 APPID" },
-  "jtt_appkey": { "type": "string", "description": "京推推 APPKEY" }
+  "jd_appkey": { "type": "string", "description": "京东联盟 AppKey" },
+  "jd_appsecret": { "type": "string", "description": "京东联盟 AppSecret" },
+  "jd_union_id": { "type": "string", "description": "京东联盟 ID (UnionID)" },
+  "pdd_app_key": { "type": "string", "description": "拼多多 AppKey (Client ID)" },
+  "pdd_app_secret": { "type": "string", "description": "拼多多 AppSecret" },
+  "pdd_pid": { "type": "string", "description": "拼多多 PID", "hint": "推广位ID" },
+  "pdd_custom_parameters": { "type": "string", "description": "拼多多 UID (自定义固定值)", "hint": "备案时使用的固定标识" }
 }
