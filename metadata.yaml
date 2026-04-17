@@ -1,0 +1,9 @@
+name: astrbot_plugin_xinxin_rebate
+desc: xinxin-fanli - 用于Astrbot支持淘宝京东商品链接自动解析与返利链接生成
+help: 直接向我的微信发送淘宝/京东商品分享文案或链接，自动回复优惠与返利信息。
+version: 1.0.1
+author: xinxin
+repo: https://github.com/AstrBotDevs/AstrBot
+support_platforms:
+  - weixin_oc  # 必须是 weixin_oc，这代表 openclaw-weixin 通道
+  - aiocqhttp
